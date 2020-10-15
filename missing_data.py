@@ -23,3 +23,4 @@ df.na.drop(subset=['Sales']).show() # this drops any rows that have a null in th
 
 
 # ------------------------------ FILLING DATA ------------------------------
+# i will get to this when i have some spare time
