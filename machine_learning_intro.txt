@@ -1,0 +1,59 @@
+#######################################################################
+Intro to Machine Learning
+#######################################################################
+
+!!!!!!!!!!!!!!!!    spark.apache.org    !!!!!!!!!!!!!!!!
+
+################# EG OF WHAT IT'S USED FOR #################
+- Fraud detection
+- Web search results
+- Real-time ads on web pages
+- Credit scoring and next-basis offers
+- Prdiction of equipment failures
+- New pricing models
+- Network intrusion detection
+- Recommendation engines
+- Customer segmentation
+- Text sentiment analysis
+- Pattern and image recognition
+- Email spam filtering
+- Financial modeling
+
+
+################# MACHINE LEARNING PROCESS #################
+
+                           --------------> Test data ---------------
+                          |                                         |
+Data aquisition -> Data cleaning -> Model training & building -> Model testing -> Model deployment
+                                               |                    |
+                                                <-------------------
+
+
+################# SUPERVISED / UNSUPERVISED LEARNING #################
+---------- SUPERVISED ----------
+Trained using labeled examples, such as an input where the desired output is known
+e.g a piece of equipment could have data points labeled either 'F' (failed) or 'R' (runs)
+Commonly used in applications where historical data predicts the future events
+e.g it can attempt to predict the price of a house cased on different features for houses which have historical price data.
+
+---------- UNSUPERVISED ----------
+Used against data that has not historical labels
+Not told the 'right answer' the algorithm must figure out what it being shown
+The goal is to exmplore the data and find some structure within
+e.g it can find the main attributes that seperate customer segments from each otherwise
+Popular techniques include self-organising maps, nearest-neighbor mapping, k-means clustering and singular value decomposition
+One issue: it can be difficult to evaluate results of an unsupervised model!
+
+
+################# HELPFUL TIPS #################
+
+You need to format the data so that eventually it has 1 or 2 columns:
+Like so..
+Features, Labels (SUPERVISED)
+Features (UNSUPERVISED)
+
+A huge part of MLlib is getting comfortable with the documentation
+Being able to master the skill of finding information (NOT memorization) is the key to becoming a great Spark and Python developer.
+Use the documentation on the site!!
+MLlib Guide!! We will be using this a lot!!
+Check out the API section as well!! 
