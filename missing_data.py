@@ -23,7 +23,7 @@ df.na.drop(subset=['Sales']).show() # this drops any rows that have a null in th
 
 
 # ------------------------------ FILLING DATA ------------------------------
-# to fill everything with a string (sspark will fill all fields that have values as a string )
+# to fill everything with a string (spark will fill all fields that have values as a string )
 df.na.fill('FILL VALUE').show()
 
 # to fill in everything with a numeric value (spark will again fill in any fields that have a numeric value)
